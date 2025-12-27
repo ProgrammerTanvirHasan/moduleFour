@@ -9,3 +9,8 @@ const shohojKothayPrisma = `
   });
 `;
 // All code examples have their own documentation.
+
+
+// indexing hocce ekta technique ja database er performance improve korar jonno use hoy. Eita data retrieval ke fast kore. Example:CREATE INDEX idx_age ON users(age);
+
+// prisma te ekta command ace..prisma generate ja amader prisma schema theke client generate kore. এই command চালালে Prisma এমন একটা client বানায়, যেটা দিয়ে ডাটাবেসে Create, Read, Update, Delete খুব সহজে করা যায়।
